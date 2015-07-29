@@ -10,7 +10,7 @@ $( "button" ).click(function() {
     //call translation function//
   }          //german is selected, pull list a
     else {
-      //call translation function for Italian//
+      Gibberish.translateToItalian(res);//call translation function for Italian//
     }         //pull list b
 });
 

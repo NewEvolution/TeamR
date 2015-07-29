@@ -12,6 +12,12 @@ var Gibberish = (function(lingo) {
 
   
 lingo.translateToItalian = function(input) {
+      var outputText = "";
+      for(var i=0; i<input.length; i++) {
+        outputText += Italian[input[i]] + " ";
+      }
+      console.log(outputText);
+      return outputText;
 
 }   
 
