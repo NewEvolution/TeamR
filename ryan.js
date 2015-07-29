@@ -1,4 +1,4 @@
-var Giberish = function() {
+var Gibberish = function() {
   var lexiconGerm = {
     merry: "fröhlich",
     christmas: "Weihnachten",
@@ -9,7 +9,11 @@ var Giberish = function() {
   }
   return {
     translateToGerman: function(sentText) {
-      
+      var outputText = "";
+      for(var i=0; i<sentText.length; i++) {
+        outputText += lexiconGerm[sentText[i]] + " ";
+      }
+      return outputText;
     }
   };
 }();
