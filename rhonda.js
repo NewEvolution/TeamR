@@ -25,4 +25,4 @@ lingo.translateToItalian = function(input) {
 //IIFE = This whole thing is an IIFE! Immediatelt Invoked Function Expression ()//
 })(Gibberish);
 
-console.log(Sun.getdwarfPlanets());
+
