@@ -1,5 +1,5 @@
 $( "button" ).click(function() {
-  var test = $("[select]").val();
+  var test = $("[select]:selected").val();
   var toTranslate = $("input").val();
   alert(toTranslate);
   alert(test);
