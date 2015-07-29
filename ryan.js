@@ -13,6 +13,7 @@ var Gibberish = function() {
       for(var i=0; i<sentText.length; i++) {
         outputText += lexiconGerm[sentText[i]] + " ";
       }
+      console.log(outputText);
       return outputText;
     }
   };
