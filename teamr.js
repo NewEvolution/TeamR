@@ -5,13 +5,16 @@ $( "button" ).click(function() {
   console.log(test);
   var res = toTranslate.split(" ");
   if (test ==="German") {
-    Gibberish.translateToGerman(res);
+    var xmas = Gibberish.translateToGerman(res);
 
     //call translation function//
   }          //german is selected, pull list a
     else {
-      Gibberish.translateToItalian(res);//call translation function for Italian//
-    }         //pull list b
+      var xmas = Gibberish.translateToItalian(res);//call translation function for Italian//
+    }
+   
+  $( "#chat" ).append(xmas);
+             //pull list b
 });
 
 
