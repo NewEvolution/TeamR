@@ -1,8 +1,8 @@
 $( "button" ).click(function() {
   var test = $("option:selected").val();
   var toTranslate = $("input").val();
-  alert(toTranslate);
-  alert(test);
+  console.log(toTranslate);
+  console.log(test);
   var res = toTranslate.split(" ");
   if (test ==="German") {
     Gibberish.translateToGerman(res);
