@@ -21,7 +21,7 @@ lingo.translateToItalian = function(input) {
 
 }   
 
-return Gibberish
+return lingo
   
 
   
