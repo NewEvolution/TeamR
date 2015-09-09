@@ -1,4 +1,4 @@
-# TeamR
+#Translation - TeamR
 
 Represent a small bilingual lexicon as a Javascript object (see example below) and use it to translate a holiday card message from English into another language. Each member of the team will build a JavaScript module that will convert text entered into an input field to the language that they choose.
 
@@ -21,3 +21,13 @@ This is Swedish, so please choose other languages. You can add as many words/tra
 1. Each IIFE should expose, in its public interface, a method named translateTo{Language} (e.g. translateToSpanish or translateToFinnish) that accepts a single argument. That argument's value should be the text entered in by the user.
 
 1. The team should create a 3rd JavaScript file that handles interacting with the form elements and determining which method should be called.
+
+###Requirements:
+- Node.js https://nodejs.org/en/
+- Installation of http-server via _npm install -g http-server_
+
+###Post Cloning Your Fork Locally:
+- Inside the main repo directory:
+ - Run _http-server_
+ - Make note of the port number returned after running _http-server_
+- Navigate to http://localhost:[your-port-number]
