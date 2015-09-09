@@ -5,17 +5,11 @@ $( "button" ).click(function() {
   console.log(test);
   var res = toTranslate.split(" ");
   if (test ==="German") {
-    var xmas = Gibberish.translateToGerman(res);
-
-    //call translation function//
-  }          //german is selected, pull list a
+    var xmas = Gibberish.translateToGerman(res); //call translation function//
+  }
     else {
       var xmas = Gibberish.translateToItalian(res);//call translation function for Italian//
     }
    
   $( "#chat" ).append(xmas);
-             //pull list b
 });
-
-
-
